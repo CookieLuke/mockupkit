@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <radialGradient id="basqueShade" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#1B5E20" />
+      <stop offset="100%" stop-color="#0D3311" />
+    </radialGradient>
+
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D50000" stop-opacity="0" />
+      <stop offset="50%" stop-color="#D50000" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#D50000" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Nessun riquadro di sfondo: sfondo trasparente -->
+
+  <path d="M512 250 C 350 250, 200 350, 200 500 C 200 650, 350 800, 512 800 C 674 800, 824 650, 824 500 C 824 350, 674 250, 512 250 Z" fill="#1B5E20" stroke="#0D3311" stroke-width="10" />
+
+  <path d="M512 270 C 360 270, 220 360, 220 500 C 220 640, 360 780, 512 780 C 664 780, 804 640, 804 500 C 804 360, 664 270, 512 270 Z" fill="url(#basqueShade)" />
+
+  <circle cx="512" cy="400" r="80" fill="#D50000" stroke="#B71C1C" stroke-width="5" />
+
+  <path d="M512 340 L 530 380 L 572 380 L 538 405 L 550 450 L 512 425 L 474 450 L 486 405 L 452 380 L 494 380 Z" fill="#FFFFFF" />
+
+  <text x="512" y="650" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="200" font-weight="bold" text-anchor="middle" fill="#FFFFFF" stroke="#000000" stroke-width="2">SFT</text>
+
+  <path d="M200 500 C 200 650, 350 800, 512 800 C 520 800, 528 799.5, 536 799 L 536 500 L 200 500 Z" fill="url(#redAccent)" fill-opacity="0.3" />
+
+</svg>

@@ -1,0 +1,75 @@
+# ---------------------------------------------------------------------------
+# Configurazione mockup Play Store – Lingua: ENGLISH
+# ---------------------------------------------------------------------------
+# Modifica questo file per personalizzare testi e percorsi, poi lancia:
+#   python genera_immagini.py --config config/ENG.yaml
+# ---------------------------------------------------------------------------
+
+# --- Brand ---
+logo: icone_altro/IconMock.png          # logo PNG con sfondo trasparente
+font: ""                                # lascia vuoto per auto-detect (Oswald)
+
+# --- Output ---
+output_dir: output
+
+# --- Dispositivi da generare (commenta quelli che non servono) ---
+devices:
+  - name: Smartphone ENG
+    canvas: [1080, 1920]
+    frame: phone
+    scale: 1.0
+    outdir: Assets/ENG
+
+  - name: Tablet 7 ENG
+    canvas: [1200, 1920]
+    frame: tablet
+    scale: 1.05
+    outdir: Assets/ENG Tablet 7
+
+  - name: Tablet 10 ENG
+    canvas: [1200, 1920]
+    frame: tablet
+    scale: 1.05
+    outdir: Assets/ENG Tablet 10
+
+# --- Storyboard ---
+slides:
+  - screenshot: UNO_Screenshot_016Home1.png
+    titolo: "TRAIN LIKE THE ELITE"
+    keyword: ELITE
+    sottotitolo: "Push yourself beyond your limits."
+
+  - screenshot: DUE_Screenshot_003SistemaProgressione.png
+    titolo: "A COMPLETE PROGRESSION SYSTEM"
+    keyword: PROGRESSION
+    sottotitolo: "From beginner to advanced operator, all under control."
+
+  - screenshot: TRE_Screenshot_007LeForzeSpeciali.png
+    titolo: "THE ITALIAN SPECIAL FORCES"
+    keyword: SPECIAL
+    sottotitolo: "Description, features and selection tests."
+
+  - screenshot: QUATTRO_Screenshot_008Allenamento1Sett.png
+    titolo: "8 WEEKS PER LEVEL TOWARD YOUR GOAL"
+    keyword: GOAL
+    sottotitolo: "Structured plans day by day."
+
+  - screenshot: CINQUE_Screenshot_009CrossFit.png
+    titolo: "CROSSFIT PROGRAM"
+    keyword: CROSSFIT
+    sottotitolo: "Precise instructions to maximize performance."
+
+  - screenshot: SEI_Screenshot_012Progressi.png
+    titolo: "TRACK YOUR PROGRESS"
+    keyword: PROGRESS
+    sottotitolo: "Monitor your field performance with motivational streaks."
+
+  - screenshot: SETTE_Screenshot_013Salute.png
+    titolo: "ABSOLUTE PRIVACY"
+    keyword: PRIVACY
+    sottotitolo: "Monitor your metrics. Data stays only on your device."
+
+  - screenshot: OTTO_Screenshot_014Community.png
+    titolo: "CLIMB THE LEADERBOARD"
+    keyword: LEADERBOARD
+    sottotitolo: "Challenge the community and dominate the global leaderboard."

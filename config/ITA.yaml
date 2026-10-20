@@ -1,0 +1,77 @@
+# ---------------------------------------------------------------------------
+# Configurazione mockup Play Store – Lingua: ITALIANO
+# ---------------------------------------------------------------------------
+# Modifica questo file per personalizzare testi e percorsi, poi lancia:
+#   python genera_immagini.py --config config/ITA.yaml
+# ---------------------------------------------------------------------------
+
+# --- Brand ---
+logo: icone_altro/IconMock.png          # logo PNG con sfondo trasparente
+font: ""                                # lascia vuoto per auto-detect (Oswald)
+
+# --- Output ---
+output_dir: output                      # cartella radice per tutti gli output
+
+# --- Dispositivi da generare (commenta quelli che non servono) ---
+devices:
+  - name: Smartphone
+    canvas: [1080, 1920]
+    frame: phone                        # "phone" o "tablet"
+    scale: 1.0
+    outdir: output/Assets Smartphone
+
+  - name: Tablet 7
+    canvas: [1200, 1920]
+    frame: tablet
+    scale: 1.05
+    outdir: output/Assets Tablet 7
+
+  - name: Tablet 10
+    canvas: [1200, 1920]
+    frame: tablet
+    scale: 1.05
+    outdir: output/Assets Tablet 10
+
+# --- Storyboard ---
+# Ogni slide ha: screenshot, titolo, keyword (parola evidenziata nel titolo),
+# e sottotitolo. La keyword è case-insensitive.
+slides:
+  - screenshot: UNO_Screenshot_016Home1.png
+    titolo: "ADDESTRATI COME L'ÉLITE"
+    keyword: ÉLITE
+    sottotitolo: "Preparati a spingerti oltre."
+
+  - screenshot: DUE_Screenshot_003SistemaProgressione.png
+    titolo: "UN SISTEMA COMPLETO DI PROGRESSIONE"
+    keyword: PROGRESSIONE
+    sottotitolo: "Da neofita a operatore avanzato, tutto sotto controllo."
+
+  - screenshot: TRE_Screenshot_007LeForzeSpeciali.png
+    titolo: "LE FORZE SPECIALI ITALIANE"
+    keyword: SPECIALI
+    sottotitolo: "Descrizione, caratteristiche e test di selezione."
+
+  - screenshot: QUATTRO_Screenshot_008Allenamento1Sett.png
+    titolo: "8 SETTIMANE PER LIVELLO FINO ALL'OBIETTIVO"
+    keyword: OBIETTIVO
+    sottotitolo: "Piani strutturati giorno per giorno."
+
+  - screenshot: CINQUE_Screenshot_009CrossFit.png
+    titolo: "PROGRAMMA CROSSFIT"
+    keyword: CROSSFIT
+    sottotitolo: "Istruzioni precise per massimizzare la resa."
+
+  - screenshot: SEI_Screenshot_012Progressi.png
+    titolo: "TRACCIA I TUOI PROGRESSI"
+    keyword: PROGRESSI
+    sottotitolo: "Monitora le tue prestazioni sul campo con streak motivazionali."
+
+  - screenshot: SETTE_Screenshot_013Salute.png
+    titolo: "PRIVACY ASSOLUTA"
+    keyword: PRIVACY
+    sottotitolo: "Monitora le tue metriche. I dati restano solo sul tuo dispositivo."
+
+  - screenshot: OTTO_Screenshot_014Community.png
+    titolo: "SCALA LA CLASSIFICA"
+    keyword: CLASSIFICA
+    sottotitolo: "Confrontati con la community e domina la leaderboard globale."

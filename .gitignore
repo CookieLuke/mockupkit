@@ -1,0 +1,45 @@
+# Ambiente virtuale
+.venv/
+venv/
+env/
+
+# Output generato (immagini prodotte dallo script)
+output/
+Assets/ENG/
+Assets/ENG Tablet 7/
+Assets/ENG Tablet 10/
+Flyer/output/
+Flyer/prove prove/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File temporanei
+tmp_rovodev_*
+
+# Appunti e note personali
+*.txt
+
+# Screenshot cestinati / prove
+assets smartphone/
+Flyer/prove prove/
+
+# Immagini sorgente flyer (dati personali)
+Flyer/potere_della_musica_Whatsapp*
+Flyer/biodanza_flyer_candidate_b_thirds*
+Flyer/biodanza_flyer_candidate_b_thirds_header_restored.png
